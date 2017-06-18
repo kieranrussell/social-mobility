@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background-color: #e2e2e2;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+a {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav h3{
+    display: inline-block;
+    margin: 12px;
+    float: left;
+    color: white;
+}
+
+nav a.active {
+    background-color: rgba(34, 34, 34, 0.77);;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background: #d2d2d2;
+    box-shadow: 0 0 3px -1px #000000;
+}
+
+footer p {
+    text-align: center;
+    margin: 6px;
+}
+
+footer p a {
+    float: none;
+}
+
+.container {
+    width: 60%;
+    margin-top: 15px;
+    padding: 15px;
+    margin-left: 20%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 9px -2px #848484;
+}
+
+.container-lg {
+    width: 80%;
+    margin-left: 1%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.column {
+    width: 30%;
+    display: inline-block;
+    border-right: 1px solid #e2e2e2;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.column:nth-of-type(3) {
+    border-right: 0;
+}
+
+.contact input {
+    margin-bottom: 15px;
+}
+
+.contact select {
+    margin-bottom: 15px;
+}
+
+.contact textarea {
+    margin-bottom: 15px;
+}
+
+.centre{
+    text-align: center;
+}
+
+.side-menu {
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 7px;
+    margin-top: 15px;
+    vertical-align: top;
+    display: inline-block;
+    width: 15%;
+    box-shadow: 0 0 9px -2px #848484;
+}
